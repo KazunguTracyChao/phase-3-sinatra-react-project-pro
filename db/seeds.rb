@@ -3,15 +3,15 @@ puts "🌱 Seeding spices..."
 # Seed your database here
 
 # Seed buyers
-Buyer.create(first_name: "John", last_name: "Escobar", email: "johnescobar@example.com", phone: "254702345678", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Pablo", last_name: "Smith", email: "pablosmith@example.com", phone: "254703456789", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Alicia", last_name: "Teressa", email: "aliciateressa@example.com", phone: "254704567891", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Bob", last_name: "Brown", email: "bobbrown@example.com", phone: "254705678912", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Emily", last_name: "Davis", email: "emilydavis@example.com", phone: "254706789123", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Kelvin", last_name: "Johanson", email: "kelvinjohanson@example.com", phone: "254707891234", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Sarah", last_name: "Wilson", email: "sarahwilson@example.com", phone: "254708912345", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "David", last_name: "Thompson", email: "davidthompson@example.com", phone: "254709123456", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
-Buyer.create(first_name: "Olivia", last_name: "Anderson", email: "oliviaanderson@example.com", phone: "254701234567", buyer_password: "password", confirmed: true, confirmed_at: Time.now)
+Buyer.create(first_name: "John", last_name: "Escobar", email: "johnescobar@example.com", phone: "254702345678", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Pablo", last_name: "Smith", email: "pablosmith@example.com", phone: "254703456789", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Alicia", last_name: "Teressa", email: "aliciateressa@example.com", phone: "254704567891", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Bob", last_name: "Brown", email: "bobbrown@example.com", phone: "254705678912", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Emily", last_name: "Davis", email: "emilydavis@example.com", phone: "254706789123", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Kelvin", last_name: "Johanson", email: "kelvinjohanson@example.com", phone: "254707891234", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Sarah", last_name: "Wilson", email: "sarahwilson@example.com", phone: "254708912345", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "David", last_name: "Thompson", email: "davidthompson@example.com", phone: "254709123456", buyer_password: "password", confirmed: true)
+Buyer.create(first_name: "Olivia", last_name: "Anderson", email: "oliviaanderson@example.com", phone: "254701234567", buyer_password: "password", confirmed: true)
 
 puts "✅ Done seeding buyers!"
 
