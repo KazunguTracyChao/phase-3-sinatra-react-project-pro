@@ -2,32 +2,21 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 
-# Seed buyers
-Buyer.create(first_name: "John", last_name: "Escobar", email: "johnescobar@example.com", phone: "254702345678", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Pablo", last_name: "Smith", email: "pablosmith@example.com", phone: "254703456789", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Alicia", last_name: "Teressa", email: "aliciateressa@example.com", phone: "254704567891", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Bob", last_name: "Brown", email: "bobbrown@example.com", phone: "254705678912", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Emily", last_name: "Davis", email: "emilydavis@example.com", phone: "254706789123", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Kelvin", last_name: "Johanson", email: "kelvinjohanson@example.com", phone: "254707891234", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Sarah", last_name: "Wilson", email: "sarahwilson@example.com", phone: "254708912345", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "David", last_name: "Thompson", email: "davidthompson@example.com", phone: "254709123456", buyer_password: "password", confirmed: true)
-Buyer.create(first_name: "Olivia", last_name: "Anderson", email: "oliviaanderson@example.com", phone: "254701234567", buyer_password: "password", confirmed: true)
-
-puts "✅ Done seeding buyers!"
-
 # Seed agencies
-Agency.create(name: "Paws Agency", email: "pawsagency@gmail.com", phone: "254712345678", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Estancia Agency", email: "estanciaagency@gmail.com", phone: "254723456789", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Lakeside Agency", email: "lakesideagency@gmail.com", phone: "254734567891", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "San Antonio Agency", email: "sanantonioagency@gmail.com", phone: "254745678912", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Smith Fork Agency", email: "smithforkagency@gmail.com", phone: "254756789123", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Protea Agency", email: "proteaagency@gmail.com", phone: "254767891234", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Pedro Moreno Agency", email: "pedromorenoagency@gmail.com", phone: "254778912345", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "The Jesmond Agency", email: "thejesmondagency@gmail.com", phone: "254789123456", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Arles Agency", email: "arlesagency@gmail.com", phone: "254791234567", agency_password: "password", password_confirmation: "password")
-Agency.create(name: "Casteel Creek Agency", email: "casteelcreekagency@gmail.com", phone: "2547012345678", agency_password: "password", password_confirmation: "password")
+Agency.create(name: "Paws Agency", email: "pawsagency@gmail.com", phone: "254712345678", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXUqVLzDtR7whxkUPgz9RRwxagAcgCuMkVg&usqp=CAU")
+Agency.create(name: "Estancia Agency", email: "estanciaagency@gmail.com", phone: "254723456789", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPuTCHY9vaZwxBi_MNHT0cWXrFCMAbKwkHX4cK82SgDojMuzchmgTHVhkgbsfod4qX7c&usqp=CAU")
+Agency.create(name: "Lakeside Agency", email: "lakesideagency@gmail.com", phone: "254734567891", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKb1hHrGpXsjMrCFdFju8FVbIA1ROuT-JWnQ&usqp=CAU")
+Agency.create(name: "San Antonio Agency", email: "sanantonioagency@gmail.com", phone: "254745678912", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXUqVLzDtR7whxkUPgz9RRwxagAcgCuMkVg&usqp=CAU")
+Agency.create(name: "Smith Fork Agency", email: "smithforkagency@gmail.com", phone: "254756789123", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyxWrSNSMXYv6zrjWbcjMF5Bzu3fsNG6Jiy2WYoLg9P0ffSaPC5kxkcmqbj9bqDIpL-uo&usqp=CAU")
+Agency.create(name: "Protea Agency", email: "proteaagency@gmail.com", phone: "254767891234", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcDxxpe0YskRnrCn15S8HWukdZQ8Hf_79WNcrWnjeLTXy7ncGMxljXwjXoEEKQLlEUwE&usqp=CAU")
+Agency.create(name: "Pedro Moreno Agency", email: "pedromorenoagency@gmail.com", phone: "254778912345", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7r0MUCmzQwTUvPlPjeSKGyClxOFSt8Fz5hIkcvZ0_buT-L6FLZro7GiJJ2qckwFZax4g&usqp=CAU")
+Agency.create(name: "The Jesmond Agency", email: "thejesmondagency@gmail.com", phone: "254789123456", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXUqVLzDtR7whxkUPgz9RRwxagAcgCuMkVg&usqp=CAU")
+Agency.create(name: "Arles Agency", email: "arlesagency@gmail.com", phone: "254791234567", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXUqVLzDtR7whxkUPgz9RRwxagAcgCuMkVg&usqp=CAU")
+Agency.create(name: "Casteel Creek Agency", email: "casteelcreekagency@gmail.com", phone: "2547012345678", agency_password: "password", password_confirmation: "password", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9x5Ut1d8K48pqjJVsvklRdJF7NYWAwlogow&usqp=CAU")
 
 puts "✅ Done seeding agencies!"
+
+
 
 # Seed estates
 Estate.create(title: "The Resort at Paws Up", price: 700000000, rooms: 27, status: "For Sale", keyfeatures: "Ranch,Garden,Pool", nearbyhomes: "Forestly Cottage", image: "https://robbreport.com/wp-content/uploads/2015/09/the-resort-at-paws-up-011.jpg")
@@ -43,4 +32,20 @@ Estate.create(title: "Casteel Creek Retreat", price: 110000000, rooms: 11, statu
 
 puts "✅ Done seeding estates!"
 
+# Seed buyers
+Buyer.create(first_name: "John", last_name: "Escobar", email: "johnescobar@example.com", phone: "254702345678", buyer_password: "password", confirmed: true, image: "https://www.pexels.com/photo/man-wearing-black-hat-and-black-coat-157675/")
+Buyer.create(first_name: "Pablo", last_name: "Smith", email: "pablosmith@example.com", phone: "254703456789", buyer_password: "password", confirmed: true, image: "https://wallpaperaccess.com/full/356246.jpg")
+Buyer.create(first_name: "Alicia", last_name: "Teressa", email: "aliciateressa@example.com", phone: "254704567891", buyer_password: "password", confirmed: true, image: "https://wallpaperaccess.com/full/356246.jpg")
+Buyer.create(first_name: "Bob", last_name: "Brown", email: "bobbrown@example.com", phone: "254705678912", buyer_password: "password", confirmed: true, image: "https://pbs.twimg.com/media/Dn4Nn4rXUAE1zUp.jpg")
+Buyer.create(first_name: "Emily", last_name: "Davis", email: "emilydavis@example.com", phone: "254706789123", buyer_password: "password", confirmed: true, image: "https://wallpaperaccess.com/full/356246.jpg")
+Buyer.create(first_name: "Sarah", last_name: "Wilson", email: "sarahwilson@example.com", phone: "254708912345", buyer_password: "password", confirmed: true, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSOpFnGms6TEFaY5qxtsbLDWEit5csPoFHTA&usqp=CAU")
+Buyer.create(first_name: "David", last_name: "Thompson", email: "davidthompson@example.com", phone: "254709123456", buyer_password: "password", confirmed: true, image: "https://free4kwallpapers.com/uploads/originals/2015/11/17/beyonce-knowles-9-wallpaper.jpg")
+Buyer.create(first_name: "Olivia", last_name: "Anderson", email: "oliviaanderson@example.com", phone: "254701234567", buyer_password: "password", confirmed: true, image: "https://w0.peakpx.com/wallpaper/795/646/HD-wallpaper-rihanna-musica-queen.jpg")
+
+puts "✅ Done seeding buyers!"
+
 puts "✅ Done seeding!"
+
+
+
+
